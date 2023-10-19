@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    background: linear-gradient(#F5D4B5, #F95D51);
+    color: #ffffff;
+}
+
+h2, h3, h4, p {
+    text-shadow: 0 0 5px #2E393F;
+}
+
+#greeting {
+    text-shadow: 3px 3px 2px #2E393F;
+    font-size: 50px;
+}
+
+#evelyn-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #465360;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #465360;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #465360;
+    padding: 5px 10px 0 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #2E393F;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-excited:hover {
+    background-image: url("images/excited.gif");
+}
+
+#gift-img-eevee:hover {
+    background-image: url("images/eevee.gif");
+    background-size: 180%;
+    background-position: center;
+}
+
+#gift-img-cool:hover {
+    background-image: url("images/cool.gif");
+}
+
+#gift-img-dog:hover {
+    background-image: url("images/dog.gif");
+    background-position: center;
+}
+
+#gift-img-scary:hover {
+    background-image: url("images/scary.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
